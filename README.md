@@ -1,5 +1,5 @@
 # CyberSecurity-week9
-WELCOME -- RONA KOSUMI--
+WELCOME 
 # Project 8 - Pentesting Live Targets
 
 Time spent: **10** hours spent in total

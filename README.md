@@ -73,9 +73,9 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
   - [x] GIF Walkthrough: 
     <img src='week9(red_2).gif' title='Cross-Site Request Forgery (CSRF)' width='' alt='' />
   - [x] Steps to recreate:
-  - One of the three sites does not have CSRF protections on the admin area. We could design a form which would automatically submit       form data to the staff area and take advantage of a logged in user's access permissions.
-  - We can Design a form which will make a change to the spelling of some database content. (For example, change the first user from        "Jim" to "Jimaa")
-   - We can see from the GIF that the user who doesn't have admin privilege can still access the website's data and change it.
+    - One of the three sites does not have CSRF protections on the admin area. We could design a form which would automatically submit       form data to the staff area and take advantage of a logged in user's access permissions.
+    - We can Design a form which will make a change to the spelling of some database content. (For example, change the first user from        "Jim" to "Jimaa")
+    - We can see from the GIF that the user who doesn't have admin privilege can still access the website's data and change it.
 
 *_HTML Form for CSRF_*
 

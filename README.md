@@ -113,6 +113,6 @@ Describe any challenges encountered while doing the work
 
 ## Resources
 
-Gifs created via LiceCap:https://licecap.en.softonic.com/
+Gifs created via LiceCap: https://licecap.en.softonic.com/
 
 

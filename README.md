@@ -41,14 +41,17 @@ Vulnerability #1: Username Enumeration
   - [x] GIF Walkthrough: 
     <img src='week9(green_1).gif' title='Username Enumeration' width='' alt='' />
   - [x] Steps to recreate:
-     - The GIF illustrates that when you enter in a username that exisits in the system/database along with a random password and you          inspect the page the class of the span HTML attribute is ```failure ``` Also, when a wrong username/ a username that isn't in the              system is entered with a random password, inspect will display ```failed
+     - The GIF illustrates that when you enter in a username that exisits in the system/database along with a random password and you          inspect the page the class of the span HTML attribute is ```failure ``` Also, when a wrong username/ a username that isn't in the              system is entered with a random password, inspect will display ```failed```
      - Also,using the given username "jmonroe99" we can see that a valid username shows a bold error.
      - An incorrect username shows a not-bolded error
         
   
   
-Vulnerability #2: __________________
-
+Vulnerability #2: Cross-Site Scripting
+  - [x] GIF Walkthrough: 
+    <img src='week9(green_2).gif' title='Cross-Site Scripting' width='' alt='' />
+  - [x] Steps to recreate:
+  - In the Green section, click on Contact and enter into the form, where in the Feedback textbook write a alert script such as             ```<script>alert('RONA found the XSS!')</script>```. Then login and from there, click on Feedback on the dashboard and you will         encounter your Feedback lssert pop-up.
 
 ## Red
 

@@ -51,7 +51,7 @@ Vulnerability #2: Cross-Site Scripting
   - [x] GIF Walkthrough: 
     <img src='week9(green_2).gif' title='Cross-Site Scripting' width='' alt='' />
   - [x] Steps to recreate:
-  - In the Green section, click on Contact and enter into the form, where in the Feedback textbook write a alert script such as             ```<script>alert('RONA found the XSS!')</script>```. Then login and from there, click on Feedback on the dashboard and you will         encounter your Feedback lssert pop-up.
+  - In the Green section, click on Contact Us and enter into the form, where in the Feedback textbook write an alert script such as         ```<script>alert('RONA found the XSS!')</script>```. Then login and from there, click on Feedback on the dashboard and you will          encounter your Feedback lssert pop-up.
 
 ## Red
 

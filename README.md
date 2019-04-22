@@ -60,7 +60,14 @@ Vulnerability #Bonus: Cross-Site Scripting (XSS)
   
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+   - [x] GIF Walkthrough: 
+    <img src='week9(red_1).gif' title='Insecure Direct Object Reference (IDOR)' width='' alt='' />
+  - [x] Steps to recreate:
+    - By directly ```changing the 'id' parameter in the URL``` in the Green,Red and Blue section,we can find salespersons not mentioned       on the page.
+    - Find sales person/people that is/are not listed in the``` Find a Salesperson.```
+    - Click on an exisiting salesperson and in the url set the id parameter to different id number such as ```9, 10, 11...```
+    - Notice how nothing shows in the green and blue section when we change the id parameter. 
 
 Vulnerability #2: __________________
 

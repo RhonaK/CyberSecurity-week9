@@ -36,8 +36,16 @@ Vulnerability #2: Session Hijacking/Fixation
      - This hacking method demonstrates that the session can be hijacked and user informations can be stolen
 ## Green
 
-Vulnerability #1: __________________
-
+Vulnerability #1: Username Enumeration
+  - [x] GIF Walkthrough: 
+    <img src='week9(green_1).gif' title='Username Enumeration' width='' alt='' />
+  - [x] Steps to recreate:
+     - The GIF illustrates that when you enter in a username that exisits in the system/database along with a random password and you          inspect the page the class of the span HTML attribute is failure. Also, when a wrong username/ a username that isn't in the              system is entered with a random password, inspect will display failed
+     - Also,using the given username "jmonroe99" we can see that a valid username shows a bold error.
+     - An incorrect username shows a not-bolded error
+        
+  
+  
 Vulnerability #2: __________________
 
 

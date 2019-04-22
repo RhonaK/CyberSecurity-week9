@@ -19,6 +19,9 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection (SQLi)
+  - [x] GIF Walkthrough: 
+    - <img src='5.gif' title='User Enumeration' width='' alt='' />
+  - [x] Steps to recreate:
 
 
 Vulnerability #2: __________________

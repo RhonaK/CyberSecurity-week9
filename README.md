@@ -64,7 +64,7 @@ Vulnerability #1: Insecure Direct Object Reference (IDOR)
    - [x] GIF Walkthrough: 
     <img src='week9(red_1).gif' title='Insecure Direct Object Reference (IDOR)' width='' alt='' />
   - [x] Steps to recreate:
-    - By directly ```changing the 'id' parameter in the URL``` in the Green,Red and Blue section,we can find salespersons not mentioned       on the page.
+    - By directly ```changing the 'id' parameter in the URL``` in the Green,Red and Blue site,we can find salespersons not mentioned       on the page.
     - Find sales person/people that is/are not listed in the``` Find a Salesperson.```
     - Click on an exisiting salesperson and in the url set the id parameter to different id number such as ```9, 10, 11...```
     - Notice how nothing shows in the green and blue site when we change the id parameter. 
@@ -73,7 +73,9 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
   - [x] GIF Walkthrough: 
     <img src='week9(red_2).gif' title='Cross-Site Request Forgery (CSRF)' width='' alt='' />
   - [x] Steps to recreate:
-    One of the three sites does not have CSRF protections on the admin area. A clever attacker could design a form which would automatically submit form data to the staff area and take advantage of a logged in user's access permissions. Be the attacker and design a form which will make a change to the spelling of some database content. (For example, change the first user from "James" to "Jim", or change "Alabama" to "Alabamaaaa".)
+  -  One of the three sites does not have CSRF protections on the admin area. We could design a form which would automatically submit       form data to the staff area and take advantage of a logged in user's access permissions.
+    - We can Design a form which will make a change to the spelling of some database content. (For example, change the first user from        "Jim" to "Jimaa")
+    - We can see from the GIF that the user who doesn't have admin privilege can still access the website's data and change it.
 
 
 ## Notes

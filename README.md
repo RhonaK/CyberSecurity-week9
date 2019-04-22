@@ -82,10 +82,10 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
 - [x] GIF Walkthrough: 
     <img src='week9(red_form).gif' title='Cross-Site Request Forgery (CSRF)' width='' alt='' />
   - [x] Steps to recreate:
-    - Use Burp 
-    - The attacker submits a malicious webpage into the feedback section.
-    - The victim visits the url from the feedback.
-    - The malicious webpage silently submits a form to the edit section of the victims page
+  - Use Burp 
+  - The attacker submits a malicious webpage into the feedback section.
+  - The victim visits the url from the feedback.
+  - The malicious webpage silently submits a form to the edit section of the victims page
   
 
 ```
@@ -107,5 +107,12 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
     </form>
   </body>
 </html>
+```
+## Notes 
+Describe any challenges encountered while doing the work
+
+## Resources
+
+Gifs created via "Assistly(Assistly's website)":https://licecap.en.softonic.com/
 
 

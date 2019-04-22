@@ -44,15 +44,20 @@ Vulnerability #1: Username Enumeration
      - The GIF illustrates that when you enter in a username that exisits in the system/database along with a random password and you          inspect the page the class of the span HTML attribute is ```failure ``` Also, when a wrong username/ a username that isn't in the        system is entered with a random password, inspect will display ```failed```
      - Also,using the given username "jmonroe99" we can see that a valid username shows a bold error.
      - An incorrect username shows a not-bolded error
-        
   
-  
-Vulnerability #2: Cross-Site Scripting
+Vulnerability #2: Cross-Site Scripting (XSS)
   - [x] GIF Walkthrough: 
     <img src='week9(green_2).gif' title='Cross-Site Scripting' width='' alt='' />
   - [x] Steps to recreate:
   - In the Red,Blue and Green section, click on Contact Us and enter into the form, where in the Feedback textbook write an alert script     such as```<script>alert('RONA found the XSS!')</script>```. Then login and from there, click on Feedback on the dashboard and notice     how you will encounter your Feedback pop-up window, only in the _Green Section._
-
+  
+Vulnerability #Bonus: Cross-Site Scripting (XSS)
+  - [x] GIF Walkthrough: 
+    <img src='week9(green_bonus).gif' title='Cross-Site Scripting' width='' alt='' />
+  - [x] Steps to recreate:
+    -  In the Green section, go to Feedback and fill in the form along with a redirect script write in the Feedback textbox like for            instance: ```<script>document.location="https://www.facebook.com"</script>.``` Then go to login and click Feedback and you will          encounter Feedbacks from others and your feedback which directs you to the link you wrote in the Feedback text box. As seen in          the GIF, it directs me to my facebook page. 
+  
+  
 ## Red
 
 Vulnerability #1: __________________

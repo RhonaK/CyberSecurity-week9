@@ -53,7 +53,7 @@ Vulnerability #2: Cross-Site Scripting (XSS)
   
 Vulnerability #Bonus: Cross-Site Scripting (XSS)
   - [x] GIF Walkthrough: 
-    <img src='week9(green_bonus).gif' title='Cross-Site Scripting' width='' alt='' />
+    <img src='week9(green_bonuss).gif' title='Cross-Site Scripting' width='' alt='' />
   - [x] Steps to recreate:
     -  In the Green site, go to Feedback and fill in the form along with a redirect script write in the Feedback textbox like for          instance: ```<script>document.location="https://www.facebook.com"</script>.``` Then go to login and click Feedback and you              will encounter Feedbacks from others and your feedback(a pop-up window XSS) which then directs you to the link you wrote in the        Feedback text box. As seen in the GIF, it directs me to my facebook page. 
   

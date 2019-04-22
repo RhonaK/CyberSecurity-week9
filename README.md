@@ -105,6 +105,6 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
       <input type="submit" value="Submit request" />
     </form>
   </body>
-</html>```
+</html>
 
 
